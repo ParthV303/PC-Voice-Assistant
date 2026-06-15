@@ -1,7 +1,7 @@
 from groq import Groq
 from personality import PERSONALITY
 
-client = Groq(api_key="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")
+client = Groq(api_key="Your API Key")
 
 def ask_ai(prompt):
     response = client.chat.completions.create(
